@@ -10,28 +10,22 @@
        } 
    } else{
 
-            echo "<form action='index12.php' method='POST'>
-                Vardas: <input type='text' name='name'/>
-                Pavardė: <input type='text' name='surname'/>
-                <input type='submit' value='Submit' name='submit'/>
-                </form>";
+            echo "<!DOCTYPE html>
+                <html lang=''>
+                <head>
+                    <meta charset='utf-8'>
+                    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+                    <title></title>
+                </head>
+
+                <body>
+                    <form action='index12.php' method='POST'>
+                        Vardas: <input type='text' name='name'/>
+                        Pavardė: <input type='text' name='surname'/>
+                        <input type='submit' value='Submit' name='submit'/>
+                    </form>
+                </body>
+                </html>";
        }
 ?>
-<!DOCTYPE html>
-<html lang="">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-</head>
 
-<body>
-<!--
-    <form action="index12.php" method="POST">
-        Vardas: <input type="text" name="name"/>
-        Pavardė: <input type="text" name="surname"/>
-        <input type="submit" value="Submit" name="submit"/>
-    </form>
--->
-</body>
-</html>

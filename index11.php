@@ -8,31 +8,24 @@
            echo "Stačiakampio plotas yra $plotas.";       
        } 
    } else{
-            echo "Įveskite plotį ir ilgį";
-            echo "<form action='index11.php' method='POST'>
-                Ilgis: <input type='text' name='ilgis'/>
-                Plotis: <input type='text' name='plotis'/>
-                <input type='submit' value='Submit' name='submit'/>
-                </form>";
+            echo "<!DOCTYPE html>
+                <html lang=''>
+                <head>
+                    <meta charset='utf-8'>
+                    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+                    <title></title>
+                </head>
+
+                <body>
+                    <form action='index11.php' method='POST'>
+                        Ilgis: <input type='text' name='ilgis'/>
+                        Plotis: <input type='text' name='plotis'/>
+                        <input type='submit' value='Submit' name='submit'/>
+                    </form>
+                </body>
+                </html>";
        }
 
 
 ?>
-<!DOCTYPE html>
-<html lang="">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-</head>
 
-<body>
-<!--
-    <form action="index11.php" method="POST">
-        Ilgis: <input type="text" name="ilgis"/>
-        Plotis: <input type="text" name="plotis"/>
-        <input type="submit" value="Submit" name="submit"/>
-    </form>
--->
-</body>
-</html>
